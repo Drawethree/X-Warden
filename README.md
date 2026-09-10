@@ -75,6 +75,8 @@ they own a good pickaxe, and X-Warden says nothing about their timing at all.
 
 - **Every statistical check ships on ALERT.** Nothing punishes anybody until you decide it should.
 - **Every threshold carries a written note** saying what a false positive on that check looks like.
+- **Only unstackable items are fingerprinted**, because an identity lives in an item's metadata and
+  splitting a stamped stack would report a duplicate nobody created.
 - **Checks stay silent until they have enough data.** A threshold guessed against an empty server is
   how good plugins get uninstalled on day one.
 - **`/xwarden calibrate` measures your own players** and suggests the numbers, so you are not running
