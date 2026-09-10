@@ -64,6 +64,16 @@ they own a good pickaxe, and X-Warden says nothing about their timing at all.
 * [Linked Accounts](https://github.com/Drawethree/X-Warden/wiki/Linked-Accounts) — alt correlation, which can never punish anybody
 * [Calibration](https://github.com/Drawethree/X-Warden/wiki/Calibration) — measuring the thresholds from your own players
 
+### Default Files
+* [_warden.yml_](https://github.com/Drawethree/X-Warden/wiki/warden.yml)
+* [_warden-gui.yml_](https://github.com/Drawethree/X-Warden/wiki/warden-gui.yml)
+* [_warden-messages.yml_](https://github.com/Drawethree/X-Warden/wiki/warden-messages.yml)
+
+### Presets
+* [_lenient.yml_](https://github.com/Drawethree/X-Warden/wiki/lenient.yml)
+* [_balanced.yml_](https://github.com/Drawethree/X-Warden/wiki/balanced.yml)
+* [_strict.yml_](https://github.com/Drawethree/X-Warden/wiki/strict.yml)
+
 ### Support
 * [FAQ & Troubleshooting](https://github.com/Drawethree/X-Warden/wiki/Frequently-Asked-Questions---Troubleshooting)
 
