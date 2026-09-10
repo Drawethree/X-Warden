@@ -1,4 +1,5 @@
 # X-Warden
+![X-Warden Header](https://imgur.com/k7W57di.png)
 
 ![Discord](https://img.shields.io/discord/1387881708581290257?label=Discord&logo=Discord)
 
