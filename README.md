@@ -35,6 +35,11 @@ moderator can act on.
 It also knows what your server is: a player whose pickaxe breaks a block every tick is not a macro,
 they own a good pickaxe, and X-Warden says nothing about their timing at all.
 
+**Every currency is judged on its own.** Players are compared against what other people earned of the
+same currency, never against a total that sums tokens and money into one meaningless figure — and
+violation levels are counted per currency, so somebody laundering tokens builds nothing against the
+money they earn honestly.
+
 ## Getting Started
 
 | Step | Page |
