@@ -14,7 +14,7 @@ hooks straight into the core, gaining economy auditing that nothing else on the 
 
 **X-Warden is a premium paid resource.** You can purchase it here:
 
-### 👉 [**Buy X-Warden on BuiltByBit**](https://builtbybit.com/store/prison-store.392/) 👈
+### 👉 [**Buy X-Warden on BuiltByBit**](https://builtbybit.com/resources/x-warden-anti-cheat-anti-exploit.125374/) 👈
 
 We also offer **a lot more for prison servers** — the [X-Prison core](https://builtbybit.com/resources/x-prison-core.18271/),
 addons, setups and premium extras — at our [**Prison Store**](https://builtbybit.com/store/prison-store.392/),
