@@ -3,12 +3,15 @@
 
 ![Discord](https://img.shields.io/discord/1387881708581290257?label=Discord&logo=Discord)
 
-X-Warden is anti-abuse for prison servers. It detects and proves the three things that actually kill
-a prison economy — **automated mining**, **economy exploits** and **duping** — and gives your staff
+X-Warden is anti-abuse for any server with an economy. It detects and proves the three things that
+actually kill one — **automated mining**, **economy exploits** and **duping** — and gives your staff
 enough evidence to judge each one in under thirty seconds.
 
-It runs on any Paper server with **no required dependencies**. Install X-Prison alongside it and it
-hooks straight into the core, gaining economy auditing that nothing else on the platform can offer.
+It was built for prison, where it does the most, and it is at home on survival, skyblock, factions,
+towns or anything else where money can be earned, exploited or duplicated. It runs on any Paper or
+Spigot server with **no required dependencies**; beside Vault it tracks the economy, and beside
+X-Prison it hooks straight into the core and gains economy auditing that nothing else on the platform
+can offer.
 
 ## 💎 Get X-Warden
 
@@ -22,9 +25,10 @@ with **amazing bundle discounts**!
 
 ---
 
-## Why a prison-specific anticheat
+## Why an economy-aware anticheat
 
-A generic anticheat watches movement and combat. It has never heard of a sell multiplier.
+A generic anticheat watches movement and combat. It has never heard of a sell multiplier, a shop
+price or a payout.
 
 **Speed is not the signal. Consistency is.** X-Warden measures timing variation, timing spread,
 repeating loops, camera drift, session continuity and movement repetition, and scores each one
@@ -33,7 +37,8 @@ variation" means nothing on its own. "0.4%, and people are usually above 15%" is
 moderator can act on.
 
 It also knows what your server is: a player whose pickaxe breaks a block every tick is not a macro,
-they own a good pickaxe, and X-Warden says nothing about their timing at all.
+they own a good pickaxe, and X-Warden says nothing about their timing at all. Presets tune it for an
+OP prison, a casual prison, or a survival economy with no prison in it.
 
 **Every currency is judged on its own.** Players are compared against what other people earned of the
 same currency, never against a total that sums tokens and money into one meaningless figure — and
