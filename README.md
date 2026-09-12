@@ -3,9 +3,9 @@
 
 ![Discord](https://img.shields.io/discord/1387881708581290257?label=Discord&logo=Discord)
 
-X-Warden is anti-abuse for any server with an economy. It detects and proves the three things that
-actually kill one — **automated mining**, **economy exploits** and **duping** — and gives your staff
-enough evidence to judge each one in under thirty seconds.
+X-Warden is anti-abuse for any server with an economy. It detects and proves the four things that
+actually kill one — **automated mining**, **economy exploits**, **duping** and **cheat clients** —
+and gives your staff enough evidence to judge each one in under thirty seconds.
 
 It was built for prison, where it does the most, and it is at home on survival, skyblock, factions,
 towns or anything else where money can be earned, exploited or duplicated. It runs on any Paper or
@@ -45,6 +45,22 @@ same currency, never against a total that sums tokens and money into one meaning
 violation levels are counted per currency, so somebody laundering tokens builds nothing against the
 money they earn honestly.
 
+## What 1.1.0 adds
+
+- **Real-time anti-dupe with quarantine.** Every unstackable item carries an identity from the
+  first time it is seen; the same identity in two places at once is caught the moment it happens and
+  the copy is taken out of play, stored in full, never deleted, and handed back with a click.
+- **Punishment presets with escalating ladders**, run through your ban plugin's commands or applied
+  by X-Warden itself, with full history and staff notes.
+- **Cheat client detection.** Meteor, Wurst and LiquidBounce are recognised as they join — by a
+  probe the client answers itself, not only by what it declares — and kicked by default.
+- **A plugin vulnerability finder** that names any installed plugin version with a known dupe or
+  money exploit, with the source link behind every claim.
+- **One inbox for every anticheat.** `/xwarden sus` collects what Grim, Vulcan, Matrix or Spartan
+  flagged, beside X-Warden's own findings.
+- **An upgrade that keeps every setting you chose**, adds the new ones with their comments, and
+  names every change it makes in the console.
+
 ## Getting Started
 
 | Step | Page |
@@ -53,6 +69,7 @@ money they earn honestly.
 | 2. Learn the commands | [Commands & Permissions](https://github.com/Drawethree/X-Warden/wiki/Commands-&-Permissions) |
 | 3. Calibrate to your own players | [Calibration](https://github.com/Drawethree/X-Warden/wiki/Calibration) |
 | 4. Read what it can and cannot see | [What It Detects](https://github.com/Drawethree/X-Warden/wiki/What-It-Detects) |
+| Already on 1.0.0? | [Upgrading](https://github.com/Drawethree/X-Warden/wiki/Upgrading) |
 
 ---
 
@@ -61,6 +78,7 @@ money they earn honestly.
 ### General
 * [Home](https://github.com/Drawethree/X-Warden/wiki)
 * [Installation](https://github.com/Drawethree/X-Warden/wiki/Installation)
+* [Upgrading](https://github.com/Drawethree/X-Warden/wiki/Upgrading)
 * [Commands & Permissions](https://github.com/Drawethree/X-Warden/wiki/Commands-&-Permissions)
 * [Configuration](https://github.com/Drawethree/X-Warden/wiki/Configuration)
 * [Placeholders](https://github.com/Drawethree/X-Warden/wiki/Placeholders)
@@ -70,7 +88,11 @@ money they earn honestly.
 * [What It Detects](https://github.com/Drawethree/X-Warden/wiki/What-It-Detects) — the honest list, including what it cannot see
 * [Automation](https://github.com/Drawethree/X-Warden/wiki/Automation) — macros, autoclickers, AFK mining
 * [Economy](https://github.com/Drawethree/X-Warden/wiki/Economy) — the invariant guard, multiplier auditing, the ledger and rollback
-* [Integrity](https://github.com/Drawethree/X-Warden/wiki/Integrity) — duplicate items, proven rather than suspected
+* [Anti-Dupe](https://github.com/Drawethree/X-Warden/wiki/Anti-Dupe) — duplicate items, proven rather than suspected, and quarantined
+* [Client Detection](https://github.com/Drawethree/X-Warden/wiki/Client-Detection) — cheat clients named as they join
+* [Punishments](https://github.com/Drawethree/X-Warden/wiki/Punishments) — presets with escalating ladders
+* [Plugin Vulnerabilities](https://github.com/Drawethree/X-Warden/wiki/Plugin-Vulnerabilities) — installed plugins with a known exploit
+* [External Anticheats](https://github.com/Drawethree/X-Warden/wiki/External-Anticheats) — every anticheat's flags in one inbox
 * [Linked Accounts](https://github.com/Drawethree/X-Warden/wiki/Linked-Accounts) — alt correlation, which can never punish anybody
 * [Calibration](https://github.com/Drawethree/X-Warden/wiki/Calibration) — measuring the thresholds from your own players
 
@@ -78,6 +100,10 @@ money they earn honestly.
 * [_warden.yml_](https://github.com/Drawethree/X-Warden/wiki/warden.yml)
 * [_warden-gui.yml_](https://github.com/Drawethree/X-Warden/wiki/warden-gui.yml)
 * [_warden-messages.yml_](https://github.com/Drawethree/X-Warden/wiki/warden-messages.yml)
+* [_warden-punishments.yml_](https://github.com/Drawethree/X-Warden/wiki/warden-punishments.yml)
+* [_client-signatures.yml_](https://github.com/Drawethree/X-Warden/wiki/client-signatures.yml)
+* [_vulnerabilities.yml_](https://github.com/Drawethree/X-Warden/wiki/vulnerabilities.yml)
+* [_anticheats.yml_](https://github.com/Drawethree/X-Warden/wiki/anticheats.yml)
 
 ### Presets
 * [_lenient.yml_](https://github.com/Drawethree/X-Warden/wiki/lenient.yml)
@@ -87,8 +113,12 @@ money they earn honestly.
 ### Support
 * [FAQ & Troubleshooting](https://github.com/Drawethree/X-Warden/wiki/Frequently-Asked-Questions---Troubleshooting)
 
+### Addons
+* [Dashboard](https://github.com/Drawethree/X-Warden/wiki/Dashboard) — the same thing in a browser
+* [Writing an addon](https://github.com/Drawethree/X-Warden/wiki/Addons)
+
 ### For Developers
-* [Developer API](https://github.com/Drawethree/X-Warden/wiki/Developer-API)
+* [Developer API](https://github.com/Drawethree/X-Warden/wiki/Developer-API) — the contract lives in [X-WardenAPI](https://github.com/Drawethree/X-WardenAPI), MIT-licensed
 
 ---
 
@@ -103,7 +133,10 @@ money they earn honestly.
 - **`/xwarden calibrate` measures your own players** and suggests the numbers, so you are not running
   thresholds guessed for somebody else's server. It never applies anything on its own.
 - **X-Warden never recommends a punishment.** The evidence screen has a "What to do next" panel
-  written for a new moderator and investigation buttons. There is no ban button, deliberately.
+  written for a new moderator and investigation buttons. The punishment menu lists every preset and
+  pre-selects none; nothing is ever punished automatically unless *you* set a check to `PUNISH`. The
+  two exceptions to "alert only" are proof, not statistics: a duplicated item and a cheat client
+  answering a probe.
 - **Alt-account detection cannot punish anybody.** There is no setting for it, because there is no
   responsible way to ban somebody for who else uses their connection.
 
